@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0923e1c2-4139-48d2-8077-4b87b1dd1a66" name="Changes" comment="Paneles." />
+    <list default="true" id="0923e1c2-4139-48d2-8077-4b87b1dd1a66" name="Changes" comment="Paneles.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +69,7 @@
       <workItem from="1692936319875" duration="2791000" />
       <workItem from="1693525910646" duration="3094000" />
       <workItem from="1693534845053" duration="1056000" />
+      <workItem from="1693537950472" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="Paneles">
       <created>1692830407619</created>
@@ -103,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693014013599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Paneles.">
+      <created>1693538109434</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693538109434</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Paneles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paneles" />
+    <MESSAGE value="Paneles." />
+    <option name="LAST_COMMIT_MESSAGE" value="Paneles." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
