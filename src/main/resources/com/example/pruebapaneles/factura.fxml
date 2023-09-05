@@ -1,34 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.TreeTableColumn?>
 <?import javafx.scene.control.TreeTableView?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="607.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pruebapaneles.Factura">
+<AnchorPane prefHeight="607.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pruebapaneles.Factura">
    <children>
-      <ImageView fitHeight="113.0" fitWidth="117.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
-      <Label layoutX="162.0" layoutY="30.0" text="Comprado por:" />
-      <Label layoutX="162.0" layoutY="54.0" text="(Nombre de cliente)" />
-      <Label layoutX="166.0" layoutY="80.0" prefHeight="17.0" prefWidth="106.0" text="(telefono de cliente" />
-      <Label layoutX="360.0" layoutY="54.0" text="(Número de factura)" />
-      <Label layoutX="360.0" layoutY="80.0" text="(Fecha )" />
-      <Label layoutX="61.0" layoutY="135.0" text="Producto" />
-      <Label layoutX="318.0" layoutY="135.0" text="Cantidad" />
-      <Label layoutX="440.0" layoutY="135.0" text="Precio" />
+      <ImageView fitHeight="70.0" fitWidth="81.0" layoutX="29.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="117.0" layoutY="31.0" text="N° Fac" />
+      <Label layoutX="117.0" layoutY="55.0" text="Cajero:" />
+      <Label layoutX="121.0" layoutY="81.0" prefHeight="17.0" prefWidth="106.0" text="ID:" />
+      <Label layoutX="166.0" layoutY="56.0" text="Nom_caj" />
+      <Label layoutX="168.0" layoutY="81.0" text="user_caj" />
+      <Label layoutX="434.0" layoutY="55.0" text="Ingrese el nombre del producto o el código del producto" />
+      <Label layoutX="269.0" layoutY="56.0" text="(fecha)" />
+      <Label layoutX="542.0" layoutY="30.0" text="Buscar Producto" />
       <TreeTableView layoutX="47.0" layoutY="175.0" prefHeight="200.0" prefWidth="468.0">
         <columns>
           <TreeTableColumn prefWidth="200.0" text="C1" />
           <TreeTableColumn minWidth="0.0" prefWidth="136.0" text="C2" />
         </columns>
       </TreeTableView>
-      <Label layoutX="366.0" layoutY="409.0" text="Subtotal" />
+      <Label layoutX="402.0" layoutY="81.0" text="Producto:" />
       <Label layoutX="375.0" layoutY="448.0" text="Total" />
       <Label layoutX="468.0" layoutY="409.0" text="(VALOR)" />
       <Label layoutX="468.0" layoutY="448.0" text="(VALOR 1 )" />
       <Label layoutX="61.0" layoutY="465.0" text="TERMINOS Y CONDICIONES" />
       <Label layoutX="47.0" layoutY="482.0" prefHeight="105.0" prefWidth="480.0" text="No garantizamos que la calidad de los productos, servicios, información u otro material comprado u obtenido por el usuario cumpla con sus expectativas, o que cualquier error en el Servicio será corregido de acuerdo a las políticas de devolución." textOverrun="WORD_ELLIPSIS" />
+      <Button layoutX="471.0" layoutY="77.0" mnemonicParsing="false" text="Buscar por nombre" />
+      <Spinner layoutX="605.0" layoutY="77.0" prefHeight="25.0" prefWidth="118.0" />
+      <TextField layoutX="402.0" layoutY="111.0" prefHeight="25.0" prefWidth="185.0" />
+      <Button layoutX="609.0" layoutY="111.0" mnemonicParsing="false" text="Agregar Producto" />
+      <Button layoutX="609.0" layoutY="150.0" mnemonicParsing="false" text="Eliminar Producto" />
    </children>
 </AnchorPane>
